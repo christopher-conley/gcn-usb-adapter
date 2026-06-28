@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +11,8 @@ using vJoyInterfaceWrap;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Threading;
+using LibUsbDotNet.LibUsb;
+using System.Windows.Forms;
 
 
 namespace GCNUSBFeeder
@@ -67,6 +69,7 @@ namespace GCNUSBFeeder
             gcn4DZ = new ControllerDeadZones();
         }
 
+
         UsbEndpointReader reader = null;
         UsbEndpointWriter writer = null;
         UsbDevice GCNAdapter = null;
@@ -77,7 +80,7 @@ namespace GCNUSBFeeder
             //WUP-028
             //VENDORID 0x57E
             //PRODUCT ID 0x337
-            
+
             var USBFinder = new UsbDeviceFinder(0x057E, 0x0337);
             GCNAdapter = UsbDevice.OpenUsbDevice(USBFinder);
 
@@ -296,7 +299,7 @@ namespace GCNUSBFeeder
 
         void FfbRecieved(IntPtr data, IntPtr userData)
         {
-            int devId = 0;
+            uint devId = 0;
             FFBPType someT = new FFBPType();
             if (vjoy.Ffb_h_DeviceID(data, ref devId) == 0 &&
                 vjoy.Ffb_h_Type(data, ref someT) == 0)
@@ -421,7 +424,7 @@ namespace GCNUSBFeeder
                 }
                 else if(someT == FFBPType.PT_BLKFRREP || someT == FFBPType.PT_BLKLDREP)
                 {
-                    int index = 0;
+                    uint index = 0;
                     if (vjoy.Ffb_h_EBI(data, ref index) != 0)
                         Log(null, new LogEventArgs("Ffb_h_EBI error"));
                 }

@@ -1,4 +1,4 @@
-﻿namespace GCNUSBFeeder
+namespace GCNUSBFeeder
 {
     partial class Configuration
     {
@@ -133,7 +133,7 @@
             this.label1.Location = new System.Drawing.Point(25, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 13);
+            this.label1.Size = new System.Drawing.Size(165, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "Analog X Axis";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -147,7 +147,7 @@
             this.port1AX.Location = new System.Drawing.Point(155, 34);
             this.port1AX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port1AX.Name = "port1AX";
-            this.port1AX.Size = new System.Drawing.Size(109, 23);
+            this.port1AX.Size = new System.Drawing.Size(109, 32);
             this.port1AX.TabIndex = 2;
             this.port1AX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1AX.Value = new decimal(new int[] {
@@ -164,7 +164,7 @@
             this.label3.Location = new System.Drawing.Point(25, 70);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 13);
+            this.label3.Size = new System.Drawing.Size(165, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "Analog Y Axis";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -178,7 +178,7 @@
             this.port1AY.Location = new System.Drawing.Point(155, 65);
             this.port1AY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port1AY.Name = "port1AY";
-            this.port1AY.Size = new System.Drawing.Size(109, 23);
+            this.port1AY.Size = new System.Drawing.Size(109, 32);
             this.port1AY.TabIndex = 3;
             this.port1AY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1AY.Value = new decimal(new int[] {
@@ -195,7 +195,7 @@
             this.label4.Location = new System.Drawing.Point(17, 105);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 13);
+            this.label4.Size = new System.Drawing.Size(177, 20);
             this.label4.TabIndex = 15;
             this.label4.Text = "C-Stick X Axis";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -209,7 +209,7 @@
             this.port1CX.Location = new System.Drawing.Point(155, 100);
             this.port1CX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port1CX.Name = "port1CX";
-            this.port1CX.Size = new System.Drawing.Size(109, 23);
+            this.port1CX.Size = new System.Drawing.Size(109, 32);
             this.port1CX.TabIndex = 4;
             this.port1CX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1CX.Value = new decimal(new int[] {
@@ -226,7 +226,7 @@
             this.label5.Location = new System.Drawing.Point(17, 139);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 13);
+            this.label5.Size = new System.Drawing.Size(177, 20);
             this.label5.TabIndex = 17;
             this.label5.Text = "C-Stick Y Axis";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -240,7 +240,7 @@
             this.port1CY.Location = new System.Drawing.Point(155, 134);
             this.port1CY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port1CY.Name = "port1CY";
-            this.port1CY.Size = new System.Drawing.Size(109, 23);
+            this.port1CY.Size = new System.Drawing.Size(109, 32);
             this.port1CY.TabIndex = 5;
             this.port1CY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1CY.Value = new decimal(new int[] {
@@ -257,7 +257,7 @@
             this.label6.Location = new System.Drawing.Point(57, 172);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.Size = new System.Drawing.Size(117, 20);
             this.label6.TabIndex = 19;
             this.label6.Text = "L-Trigger";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -276,7 +276,7 @@
             0,
             0});
             this.port1LT.Name = "port1LT";
-            this.port1LT.Size = new System.Drawing.Size(109, 23);
+            this.port1LT.Size = new System.Drawing.Size(109, 32);
             this.port1LT.TabIndex = 6;
             this.port1LT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1LT.Value = new decimal(new int[] {
@@ -293,7 +293,7 @@
             this.label7.Location = new System.Drawing.Point(57, 207);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 13);
+            this.label7.Size = new System.Drawing.Size(117, 20);
             this.label7.TabIndex = 21;
             this.label7.Text = "R-Trigger";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -312,7 +312,7 @@
             0,
             0});
             this.port1RT.Name = "port1RT";
-            this.port1RT.Size = new System.Drawing.Size(109, 23);
+            this.port1RT.Size = new System.Drawing.Size(109, 32);
             this.port1RT.TabIndex = 7;
             this.port1RT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port1RT.Value = new decimal(new int[] {
@@ -353,7 +353,7 @@
             this.port1Enabled.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.port1Enabled.Location = new System.Drawing.Point(210, 0);
             this.port1Enabled.Name = "port1Enabled";
-            this.port1Enabled.Size = new System.Drawing.Size(73, 23);
+            this.port1Enabled.Size = new System.Drawing.Size(103, 30);
             this.port1Enabled.TabIndex = 35;
             this.port1Enabled.Text = "Enabled";
             this.port1Enabled.UseVisualStyleBackColor = true;
@@ -391,7 +391,7 @@
             this.port2Enabled.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.port2Enabled.Location = new System.Drawing.Point(210, 0);
             this.port2Enabled.Name = "port2Enabled";
-            this.port2Enabled.Size = new System.Drawing.Size(73, 23);
+            this.port2Enabled.Size = new System.Drawing.Size(103, 30);
             this.port2Enabled.TabIndex = 36;
             this.port2Enabled.Text = "Enabled";
             this.port2Enabled.UseVisualStyleBackColor = true;
@@ -405,7 +405,7 @@
             this.label8.Location = new System.Drawing.Point(25, 39);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 13);
+            this.label8.Size = new System.Drawing.Size(165, 20);
             this.label8.TabIndex = 11;
             this.label8.Text = "Analog X Axis";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -418,7 +418,7 @@
             this.label9.Location = new System.Drawing.Point(57, 207);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 13);
+            this.label9.Size = new System.Drawing.Size(117, 20);
             this.label9.TabIndex = 21;
             this.label9.Text = "R-Trigger";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -432,7 +432,7 @@
             this.port2AX.Location = new System.Drawing.Point(155, 34);
             this.port2AX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port2AX.Name = "port2AX";
-            this.port2AX.Size = new System.Drawing.Size(109, 23);
+            this.port2AX.Size = new System.Drawing.Size(109, 32);
             this.port2AX.TabIndex = 8;
             this.port2AX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2AX.Value = new decimal(new int[] {
@@ -455,7 +455,7 @@
             0,
             0});
             this.port2RT.Name = "port2RT";
-            this.port2RT.Size = new System.Drawing.Size(109, 23);
+            this.port2RT.Size = new System.Drawing.Size(109, 32);
             this.port2RT.TabIndex = 13;
             this.port2RT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2RT.Value = new decimal(new int[] {
@@ -473,7 +473,7 @@
             this.port2AY.Location = new System.Drawing.Point(155, 65);
             this.port2AY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port2AY.Name = "port2AY";
-            this.port2AY.Size = new System.Drawing.Size(109, 23);
+            this.port2AY.Size = new System.Drawing.Size(109, 32);
             this.port2AY.TabIndex = 9;
             this.port2AY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2AY.Value = new decimal(new int[] {
@@ -490,7 +490,7 @@
             this.label10.Location = new System.Drawing.Point(57, 172);
             this.label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 13);
+            this.label10.Size = new System.Drawing.Size(117, 20);
             this.label10.TabIndex = 19;
             this.label10.Text = "L-Trigger";
             this.label10.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -503,7 +503,7 @@
             this.label11.Location = new System.Drawing.Point(25, 70);
             this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(111, 13);
+            this.label11.Size = new System.Drawing.Size(165, 20);
             this.label11.TabIndex = 13;
             this.label11.Text = "Analog Y Axis";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -522,7 +522,7 @@
             0,
             0});
             this.port2LT.Name = "port2LT";
-            this.port2LT.Size = new System.Drawing.Size(109, 23);
+            this.port2LT.Size = new System.Drawing.Size(109, 32);
             this.port2LT.TabIndex = 12;
             this.port2LT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2LT.Value = new decimal(new int[] {
@@ -540,7 +540,7 @@
             this.port2CX.Location = new System.Drawing.Point(155, 100);
             this.port2CX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port2CX.Name = "port2CX";
-            this.port2CX.Size = new System.Drawing.Size(109, 23);
+            this.port2CX.Size = new System.Drawing.Size(109, 32);
             this.port2CX.TabIndex = 10;
             this.port2CX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2CX.Value = new decimal(new int[] {
@@ -557,7 +557,7 @@
             this.label12.Location = new System.Drawing.Point(17, 139);
             this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(119, 13);
+            this.label12.Size = new System.Drawing.Size(177, 20);
             this.label12.TabIndex = 17;
             this.label12.Text = "C-Stick Y Axis";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -570,7 +570,7 @@
             this.label13.Location = new System.Drawing.Point(17, 105);
             this.label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 13);
+            this.label13.Size = new System.Drawing.Size(177, 20);
             this.label13.TabIndex = 15;
             this.label13.Text = "C-Stick X Axis";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -584,7 +584,7 @@
             this.port2CY.Location = new System.Drawing.Point(155, 134);
             this.port2CY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port2CY.Name = "port2CY";
-            this.port2CY.Size = new System.Drawing.Size(109, 23);
+            this.port2CY.Size = new System.Drawing.Size(109, 32);
             this.port2CY.TabIndex = 11;
             this.port2CY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port2CY.Value = new decimal(new int[] {
@@ -625,7 +625,7 @@
             this.port3Enabled.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.port3Enabled.Location = new System.Drawing.Point(210, 0);
             this.port3Enabled.Name = "port3Enabled";
-            this.port3Enabled.Size = new System.Drawing.Size(73, 23);
+            this.port3Enabled.Size = new System.Drawing.Size(103, 30);
             this.port3Enabled.TabIndex = 38;
             this.port3Enabled.Text = "Enabled";
             this.port3Enabled.UseVisualStyleBackColor = true;
@@ -639,7 +639,7 @@
             this.label14.Location = new System.Drawing.Point(25, 39);
             this.label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(111, 13);
+            this.label14.Size = new System.Drawing.Size(165, 20);
             this.label14.TabIndex = 11;
             this.label14.Text = "Analog X Axis";
             this.label14.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -652,7 +652,7 @@
             this.label15.Location = new System.Drawing.Point(57, 207);
             this.label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(79, 13);
+            this.label15.Size = new System.Drawing.Size(117, 20);
             this.label15.TabIndex = 21;
             this.label15.Text = "R-Trigger";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -666,7 +666,7 @@
             this.port3AX.Location = new System.Drawing.Point(155, 34);
             this.port3AX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port3AX.Name = "port3AX";
-            this.port3AX.Size = new System.Drawing.Size(109, 23);
+            this.port3AX.Size = new System.Drawing.Size(109, 32);
             this.port3AX.TabIndex = 14;
             this.port3AX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3AX.Value = new decimal(new int[] {
@@ -689,7 +689,7 @@
             0,
             0});
             this.port3RT.Name = "port3RT";
-            this.port3RT.Size = new System.Drawing.Size(109, 23);
+            this.port3RT.Size = new System.Drawing.Size(109, 32);
             this.port3RT.TabIndex = 19;
             this.port3RT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3RT.Value = new decimal(new int[] {
@@ -707,7 +707,7 @@
             this.port3AY.Location = new System.Drawing.Point(155, 65);
             this.port3AY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port3AY.Name = "port3AY";
-            this.port3AY.Size = new System.Drawing.Size(109, 23);
+            this.port3AY.Size = new System.Drawing.Size(109, 32);
             this.port3AY.TabIndex = 15;
             this.port3AY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3AY.Value = new decimal(new int[] {
@@ -724,7 +724,7 @@
             this.label16.Location = new System.Drawing.Point(57, 172);
             this.label16.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(79, 13);
+            this.label16.Size = new System.Drawing.Size(117, 20);
             this.label16.TabIndex = 19;
             this.label16.Text = "L-Trigger";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -737,7 +737,7 @@
             this.label17.Location = new System.Drawing.Point(25, 70);
             this.label17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(111, 13);
+            this.label17.Size = new System.Drawing.Size(165, 20);
             this.label17.TabIndex = 13;
             this.label17.Text = "Analog Y Axis";
             this.label17.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -756,7 +756,7 @@
             0,
             0});
             this.port3LT.Name = "port3LT";
-            this.port3LT.Size = new System.Drawing.Size(109, 23);
+            this.port3LT.Size = new System.Drawing.Size(109, 32);
             this.port3LT.TabIndex = 18;
             this.port3LT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3LT.Value = new decimal(new int[] {
@@ -774,7 +774,7 @@
             this.port3CX.Location = new System.Drawing.Point(155, 100);
             this.port3CX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port3CX.Name = "port3CX";
-            this.port3CX.Size = new System.Drawing.Size(109, 23);
+            this.port3CX.Size = new System.Drawing.Size(109, 32);
             this.port3CX.TabIndex = 16;
             this.port3CX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3CX.Value = new decimal(new int[] {
@@ -791,7 +791,7 @@
             this.label18.Location = new System.Drawing.Point(17, 139);
             this.label18.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(119, 13);
+            this.label18.Size = new System.Drawing.Size(177, 20);
             this.label18.TabIndex = 17;
             this.label18.Text = "C-Stick Y Axis";
             this.label18.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -804,7 +804,7 @@
             this.label19.Location = new System.Drawing.Point(17, 105);
             this.label19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(119, 13);
+            this.label19.Size = new System.Drawing.Size(177, 20);
             this.label19.TabIndex = 15;
             this.label19.Text = "C-Stick X Axis";
             this.label19.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -818,7 +818,7 @@
             this.port3CY.Location = new System.Drawing.Point(155, 134);
             this.port3CY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port3CY.Name = "port3CY";
-            this.port3CY.Size = new System.Drawing.Size(109, 23);
+            this.port3CY.Size = new System.Drawing.Size(109, 32);
             this.port3CY.TabIndex = 17;
             this.port3CY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port3CY.Value = new decimal(new int[] {
@@ -859,7 +859,7 @@
             this.port4Enabled.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.port4Enabled.Location = new System.Drawing.Point(210, 0);
             this.port4Enabled.Name = "port4Enabled";
-            this.port4Enabled.Size = new System.Drawing.Size(73, 23);
+            this.port4Enabled.Size = new System.Drawing.Size(103, 30);
             this.port4Enabled.TabIndex = 37;
             this.port4Enabled.Text = "Enabled";
             this.port4Enabled.UseVisualStyleBackColor = true;
@@ -873,7 +873,7 @@
             this.label20.Location = new System.Drawing.Point(25, 39);
             this.label20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(111, 13);
+            this.label20.Size = new System.Drawing.Size(165, 20);
             this.label20.TabIndex = 11;
             this.label20.Text = "Analog X Axis";
             this.label20.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -886,7 +886,7 @@
             this.label21.Location = new System.Drawing.Point(57, 207);
             this.label21.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(79, 13);
+            this.label21.Size = new System.Drawing.Size(117, 20);
             this.label21.TabIndex = 21;
             this.label21.Text = "R-Trigger";
             this.label21.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -900,7 +900,7 @@
             this.port4AX.Location = new System.Drawing.Point(155, 34);
             this.port4AX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port4AX.Name = "port4AX";
-            this.port4AX.Size = new System.Drawing.Size(109, 23);
+            this.port4AX.Size = new System.Drawing.Size(109, 32);
             this.port4AX.TabIndex = 20;
             this.port4AX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4AX.Value = new decimal(new int[] {
@@ -923,7 +923,7 @@
             0,
             0});
             this.port4RT.Name = "port4RT";
-            this.port4RT.Size = new System.Drawing.Size(109, 23);
+            this.port4RT.Size = new System.Drawing.Size(109, 32);
             this.port4RT.TabIndex = 25;
             this.port4RT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4RT.Value = new decimal(new int[] {
@@ -941,7 +941,7 @@
             this.port4AY.Location = new System.Drawing.Point(155, 65);
             this.port4AY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port4AY.Name = "port4AY";
-            this.port4AY.Size = new System.Drawing.Size(109, 23);
+            this.port4AY.Size = new System.Drawing.Size(109, 32);
             this.port4AY.TabIndex = 21;
             this.port4AY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4AY.Value = new decimal(new int[] {
@@ -958,7 +958,7 @@
             this.label22.Location = new System.Drawing.Point(57, 172);
             this.label22.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(79, 13);
+            this.label22.Size = new System.Drawing.Size(117, 20);
             this.label22.TabIndex = 19;
             this.label22.Text = "L-Trigger";
             this.label22.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -971,7 +971,7 @@
             this.label23.Location = new System.Drawing.Point(25, 70);
             this.label23.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(111, 13);
+            this.label23.Size = new System.Drawing.Size(165, 20);
             this.label23.TabIndex = 13;
             this.label23.Text = "Analog Y Axis";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -990,7 +990,7 @@
             0,
             0});
             this.port4LT.Name = "port4LT";
-            this.port4LT.Size = new System.Drawing.Size(109, 23);
+            this.port4LT.Size = new System.Drawing.Size(109, 32);
             this.port4LT.TabIndex = 24;
             this.port4LT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4LT.Value = new decimal(new int[] {
@@ -1008,7 +1008,7 @@
             this.port4CX.Location = new System.Drawing.Point(155, 100);
             this.port4CX.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port4CX.Name = "port4CX";
-            this.port4CX.Size = new System.Drawing.Size(109, 23);
+            this.port4CX.Size = new System.Drawing.Size(109, 32);
             this.port4CX.TabIndex = 22;
             this.port4CX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4CX.Value = new decimal(new int[] {
@@ -1025,7 +1025,7 @@
             this.label24.Location = new System.Drawing.Point(17, 139);
             this.label24.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(119, 13);
+            this.label24.Size = new System.Drawing.Size(177, 20);
             this.label24.TabIndex = 17;
             this.label24.Text = "C-Stick Y Axis";
             this.label24.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1038,7 +1038,7 @@
             this.label25.Location = new System.Drawing.Point(17, 105);
             this.label25.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(119, 13);
+            this.label25.Size = new System.Drawing.Size(177, 20);
             this.label25.TabIndex = 15;
             this.label25.Text = "C-Stick X Axis";
             this.label25.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1052,7 +1052,7 @@
             this.port4CY.Location = new System.Drawing.Point(155, 134);
             this.port4CY.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.port4CY.Name = "port4CY";
-            this.port4CY.Size = new System.Drawing.Size(109, 23);
+            this.port4CY.Size = new System.Drawing.Size(109, 32);
             this.port4CY.TabIndex = 23;
             this.port4CY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.port4CY.Value = new decimal(new int[] {
@@ -1097,7 +1097,7 @@
             this.cbAutoStart.Location = new System.Drawing.Point(54, 18);
             this.cbAutoStart.Name = "cbAutoStart";
             this.cbAutoStart.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbAutoStart.Size = new System.Drawing.Size(232, 17);
+            this.cbAutoStart.Size = new System.Drawing.Size(343, 24);
             this.cbAutoStart.TabIndex = 28;
             this.cbAutoStart.Text = "Automatically start driver";
             this.cbAutoStart.UseVisualStyleBackColor = true;
@@ -1110,7 +1110,7 @@
             this.cbStartWithWindows.Location = new System.Drawing.Point(22, 64);
             this.cbStartWithWindows.Name = "cbStartWithWindows";
             this.cbStartWithWindows.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbStartWithWindows.Size = new System.Drawing.Size(264, 17);
+            this.cbStartWithWindows.Size = new System.Drawing.Size(391, 24);
             this.cbStartWithWindows.TabIndex = 29;
             this.cbStartWithWindows.Text = "Start Application with Windows";
             this.cbStartWithWindows.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1124,7 +1124,7 @@
             this.cbStartInTray.Location = new System.Drawing.Point(102, 41);
             this.cbStartInTray.Name = "cbStartInTray";
             this.cbStartInTray.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbStartInTray.Size = new System.Drawing.Size(184, 17);
+            this.cbStartInTray.Size = new System.Drawing.Size(271, 24);
             this.cbStartInTray.TabIndex = 34;
             this.cbStartInTray.Text = "Start in system tray";
             this.cbStartInTray.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1152,7 +1152,7 @@
             this.cbDisablevJoyOnExit.Location = new System.Drawing.Point(94, 87);
             this.cbDisablevJoyOnExit.Name = "cbDisablevJoyOnExit";
             this.cbDisablevJoyOnExit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbDisablevJoyOnExit.Size = new System.Drawing.Size(192, 17);
+            this.cbDisablevJoyOnExit.Size = new System.Drawing.Size(283, 24);
             this.cbDisablevJoyOnExit.TabIndex = 36;
             this.cbDisablevJoyOnExit.Text = "Disable ports on exit";
             this.cbDisablevJoyOnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1166,7 +1166,7 @@
             this.cbAutoUpdates.Location = new System.Drawing.Point(14, 110);
             this.cbAutoUpdates.Name = "cbAutoUpdates";
             this.cbAutoUpdates.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbAutoUpdates.Size = new System.Drawing.Size(272, 17);
+            this.cbAutoUpdates.Size = new System.Drawing.Size(403, 24);
             this.cbAutoUpdates.TabIndex = 37;
             this.cbAutoUpdates.Text = "Automatically check for updates";
             this.cbAutoUpdates.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1195,7 +1195,7 @@
             this.cbNoEventMode.Location = new System.Drawing.Point(30, 133);
             this.cbNoEventMode.Name = "cbNoEventMode";
             this.cbNoEventMode.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cbNoEventMode.Size = new System.Drawing.Size(256, 17);
+            this.cbNoEventMode.Size = new System.Drawing.Size(379, 24);
             this.cbNoEventMode.TabIndex = 38;
             this.cbNoEventMode.Text = "Windows 8+ Compatibility Mode";
             this.cbNoEventMode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1203,7 +1203,7 @@
             // 
             // Configuration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(961, 609);
