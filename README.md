@@ -1,3 +1,11 @@
+## Note:
+This is a mirror of the original repository available at: https://bitbucket.org/elmassivo/gcn-usb-adapter/src/master/
+
+
+The original repository `README` is as follows:
+
+---
+
 This is a vjoy feeder application written in C# using LibUsbDotNet. 
 
 A more readable help page is located here: http://m4sv.com/page/wii-u-gcn-usb-driver
