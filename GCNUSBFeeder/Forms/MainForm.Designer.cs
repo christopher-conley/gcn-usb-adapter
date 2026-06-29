@@ -29,7 +29,8 @@ namespace GCNUSBFeeder
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            //System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GCNUSBFeeder.Properties.MainForm));
             this.btnStart = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
@@ -171,7 +172,7 @@ namespace GCNUSBFeeder
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(670, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(670, 28);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -185,7 +186,7 @@ namespace GCNUSBFeeder
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(73, 32);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // startToolStripMenuItem
@@ -228,7 +229,7 @@ namespace GCNUSBFeeder
             this.aboutToolStripMenuItem1});
             this.aboutToolStripMenuItem.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(73, 32);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.aboutToolStripMenuItem.Text = "&Help";
             // 
             // configurationToolStripMenuItem
@@ -330,6 +331,8 @@ namespace GCNUSBFeeder
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximumSize = new System.Drawing.Size(692, 446);

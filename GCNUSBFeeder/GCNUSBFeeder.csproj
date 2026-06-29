@@ -72,8 +72,9 @@
     -->
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <EmbeddedResource Include="icon.ico" />
   </ItemGroup>
+  <!--
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
@@ -86,6 +87,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  -->
   <ItemGroup>
     <None Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,7 +95,9 @@
     <ProjectReference Include="..\HarwareHelperLib\HarwareHelperLib.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LibUsbDotNet" Version="2.2.85" />
+    <PackageReference Include="LibUsbDotNet" Version="2.2.85">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="PolySharp" Version="1.16.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -102,11 +106,22 @@
     <PackageReference Include="System.Management" Version="10.0.9" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Properties\MainForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MainForm.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\MainForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MainForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Update="Properties\Settings.settings">

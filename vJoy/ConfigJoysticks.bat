@@ -1,7 +1,7 @@
 echo off
 cls
 
-cd /d %systemdrive%\program files\vjoy
+cd /d %systemdrive%\program files\vjoy\x64
 
 echo Installing Controller Port 1...
 vJoyConfig.exe 1 -f -a x y z rx ry rz -b 12
@@ -14,3 +14,5 @@ vJoyConfig.exe 3 -f -a x y z rx ry rz -b 12
 
 echo Installing Controller Port 4...
 vJoyConfig.exe 4 -f -a x y z rx ry rz -b 12
+
+pause
